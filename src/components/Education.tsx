@@ -11,14 +11,14 @@ const education = [
     icon: "🎓"
   },
   {
-    degree: "Secondary Education",
+    degree: "Intermediate Education",
     institution: "Srichaitanya Junior College",
     year: "2019 - 2021",
     grade : "Percentage: 96.7%",
     icon: "🏫"
   },
   {
-    degree: "Primary Education",
+    degree: "Secondary Education",
     institution: "Bhashyam High School",
     year: "2018 - 2019",
     grade : "CGPA: 10",
