@@ -4,6 +4,12 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
+      title: "Semantic Book Recommendation Using LLMs and Vector Search",
+      description: "Developed a semantic book recommendation system leveraging large language models (LLMs) and vector search techniques. Processed and cleaned text data, built a vector database, and implemented book recommendations using similarity search. Integrated LangChain for efficient text splitting and retrieval. Additionally, explored zero-shot text classification and sentiment analysis to enhance recommendation quality. Designed a user-friendly Gradio dashboard for seamless interaction.",
+      tech: ["LLMs", "Vector Search", "LangChain", "Zero-Shot Classification", "Sentiment Analysis", "Gradio"],
+      github: "https://github.com/YSChandu/semantic_book_recommender"
+  },
+  {
     title: "Advanced Reinforcement Learning and LLM Fine-Tuning",
     description: "Developed and fine-tuned reinforcement learning models, including Q-learning, Deep Q-learning, and the A3C algorithm, to solve complex decision-making problems. Additionally, fine-tuned a large language model using the Hugging Face framework for domain-specific applications. Optimized model performance and tested solutions in real-world scenarios.",
     tech: ["Reinforcement Learning", "Deep Q-Learning", "A3C Algorithm", "Hugging Face", "LLM Fine-Tuning"],
