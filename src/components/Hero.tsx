@@ -36,7 +36,7 @@ export function Hero() {
           <a href="https://github.com/YSChandu" className="text-muted-foreground hover:text-primary transition-colors">
             <Github className="h-6 w-6" />
           </a>
-          <a href="www.linkedin.com/in/yarrapothu-sai-chandu-ab45b4244" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://www.linkedin.com/in/yarrapothu-sai-chandu-ab45b4244/" className="text-muted-foreground hover:text-primary transition-colors">
             <Linkedin className="h-6 w-6" />
           </a>
           <a href="yarrapothusaichandu@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
