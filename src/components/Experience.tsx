@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { Briefcase } from 'lucide-react';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { Briefcase } from "lucide-react";
 
 export function Experience() {
   const [ref, inView] = useInView({
@@ -25,30 +25,38 @@ export function Experience() {
         >
           <div className="relative p-6 bg-card rounded-lg shadow-lg border-l-4 border-primary">
             <h3 className="text-2xl font-bold mb-2">Visakhapatnam Steel Plant (RINL)</h3>
-            <p className="text-muted-foreground mb-4">Machine Learning Intern</p>
-            
+            <p className="text-muted-foreground mb-2">Project Trainee | 09/2023 – 10/2023</p>
+
             <div className="mb-6">
               <h4 className="font-semibold mb-2">Project: Yard Management System</h4>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                <li>Developed an ML-powered system for optimizing yard operations and inventory management</li>
-                <li>Implemented predictive analytics for resource allocation and workflow optimization</li>
-                <li>Built a Django-based dashboard for real-time monitoring and analytics</li>
+                <li>Developed and deployed ML models to optimize yard management operations and decision-making.</li>
+                <li>Implemented backend services using Django, improving system functionality and efficiency.</li>
+                <li>Enhanced resource allocation by integrating predictive analytics for better decision-making.</li>
               </ul>
             </div>
 
             <div className="mb-6">
               <h4 className="font-semibold mb-2">Key Achievements</h4>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                <li>Reduced manual data entry time by 60% through automation</li>
-                <li>Improved resource allocation efficiency by 40%</li>
-                <li>Implemented real-time tracking system for yard assets</li>
+                <li>Automated manual data processing, reducing workload and improving accuracy.</li>
+                <li>Optimized real-time tracking and monitoring of yard assets, improving operational insights.</li>
+                <li>Successfully deployed a scalable ML model, enhancing system efficiency.</li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-semibold mb-2">Skills Developed</h4>
               <div className="flex flex-wrap gap-2">
-                {["Team Leadership", "Project Management", "Problem Solving", "Communication", "Time Management"].map((skill) => (
+                {[
+                  "Machine Learning",
+                  "Django",
+                  "Backend Development",
+                  "Predictive Analytics",
+                  "Data Processing",
+                  "Project Management",
+                  "System Optimization",
+                ].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
                     {skill}
                   </span>

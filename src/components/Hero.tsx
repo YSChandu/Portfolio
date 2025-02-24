@@ -27,7 +27,7 @@ export function Hero() {
           <a href="#projects" className="bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors">
             View Projects
           </a>
-          <a href="/src/asserts/resume.pdf" className="bg-secondary text-secondary-foreground px-6 py-3 rounded-lg hover:bg-secondary/80 transition-colors">
+          <a href="https://drive.google.com/file/d/1lMgoVjIZsN_ojU0ABcbl1Q6EYcyXAwa5/view?usp=sharing" className="bg-secondary text-secondary-foreground px-6 py-3 rounded-lg hover:bg-secondary/80 transition-colors">
             Download Resume
           </a>
         </div>
@@ -39,7 +39,7 @@ export function Hero() {
           <a href="https://www.linkedin.com/in/yarrapothu-sai-chandu-ab45b4244/" className="text-muted-foreground hover:text-primary transition-colors">
             <Linkedin className="h-6 w-6" />
           </a>
-          <a href="yarrapothusaichandu@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="mailto:yarrapothusaichandu@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
             <Mail className="h-6 w-6" />
           </a>
         </div>
