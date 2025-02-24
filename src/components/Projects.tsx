@@ -7,7 +7,8 @@ const projects = [
       title: "Semantic Book Recommendation Using LLMs and Vector Search",
       description: "Developed a semantic book recommendation system leveraging large language models (LLMs) and vector search techniques. Processed and cleaned text data, built a vector database, and implemented book recommendations using similarity search. Integrated LangChain for efficient text splitting and retrieval. Additionally, explored zero-shot text classification and sentiment analysis to enhance recommendation quality. Designed a user-friendly Gradio dashboard for seamless interaction.",
       tech: ["LLMs", "Vector Search", "LangChain", "Zero-Shot Classification", "Sentiment Analysis", "Gradio"],
-      github: "https://github.com/YSChandu/semantic_book_recommender"
+      github: "https://github.com/YSChandu/semantic_book_recommender",
+      demo:"https://chandu24-yt-semantic-book-recommendation.hf.space/"
   },
   {
     title: "Advanced Reinforcement Learning and LLM Fine-Tuning",
