@@ -11,17 +11,18 @@ const projects = [
       demo:"https://chandu24-yt-semantic-book-recommendation.hf.space/"
   },
   {
-    title: "Advanced Reinforcement Learning and LLM Fine-Tuning",
-    description: "Developed and fine-tuned reinforcement learning models, including Q-learning, Deep Q-learning, and the A3C algorithm, to solve complex decision-making problems. Additionally, fine-tuned a large language model using the Hugging Face framework for domain-specific applications. Optimized model performance and tested solutions in real-world scenarios.",
-    tech: ["Reinforcement Learning", "Deep Q-Learning", "A3C Algorithm", "Hugging Face", "LLM Fine-Tuning"],
-    github: "https://github.com/yourusername/rl-llm-finetuning"
-  },
+    title: "NewsPulse",
+    description: "News Sentiment Analysis Tool: A web-based application built with Streamlit that fetches, analyzes, and summarizes news articles related to a given company, providing sentiment analysis and topic extraction. Additionally, it converts the final sentiment analysis result into Hindi audio using gTTS.\n\nFeatures:\n✅ Fetches real-time news related to a company.\n✅ Performs sentiment analysis on the fetched articles.\n✅ Extracts key topics and generates comparative sentiment scores.\n✅ Provides a detailed breakdown of sentiment distribution and topic overlap.\n✅ Converts final sentiment analysis into Hindi audio using Google Text-to-Speech (gTTS).\n\nTech Stack:\n- Frontend: Streamlit\n- Backend API: Hosted on Hugging Face Spaces\n\nLibraries Used:\n- streamlit – for UI\n- requests – for API communication\n- translate – for text translation\n- gtts – for text-to-speech conversion\n\nInstallation:\n1️⃣ Clone the Repository:\n```bash\ngit clone https://github.com/your-username/news-sentiment-analysis.git\ncd news-sentiment-analysis\n```\n2️⃣ Install Dependencies:\n```bash\npip install -r requirements.txt\n```\n3️⃣ Run the Application:\n```bash\nstreamlit run app.py\n```\n\nHow It Works:\n1️⃣ User inputs a company name.\n2️⃣ App fetches the latest news articles related to the company via API.\n3️⃣ Sentiment analysis is performed on the news articles.\n4️⃣ Topics are extracted and a comparative sentiment score is generated.\n5️⃣ The final sentiment analysis is converted into Hindi audio.\n6️⃣ Users can listen to the sentiment summary.\n\nAPI Endpoints Used:\n- `/extract_news` → Fetches news articles for the given company.\n- `/analyze_articles` → Analyzes sentiment and topics from the articles.\n\nExample Usage:\n**Input:** Tesla\n\n**Output:**\n- Latest news articles about Tesla.\n- Sentiment analysis (Positive/Negative/Neutral).\n- Topic extraction.\n- Audio output summarizing the sentiment in Hindi.\n\nFuture Enhancements:\n📌 Add support for multiple languages for sentiment translation.\n📌 Improve sentiment accuracy using deep learning models.\n📌 Enhance news extraction using multiple APIs (Google News, Bing News, etc.).\n\nContributors:\n- **Yarrapothu Sai Chandu** (https://github.com/YSChandu)",
+    tech: ["Streamlit", "Hugging Face Spaces", "FastAPI","Sentiment Analysis", "NLP", "gTTS", "API Integration"],
+    github: "https://github.com/YSChandu/FastAPI_User_interface",
+    demo:"https://huggingface.co/spaces/Chandu24-YT/NewsPulse"
+},
   {
     title: "MindCare – AI-Driven Mental Health Wellness Platform",
     description: "Developed an AI-powered web platform promoting mental health awareness and care. Features include a chatbot to assist users, personalized mental health diagnosis quizzes, and curated resources such as yoga exercises, self-help tools, and music therapy. The platform is designed to reduce stigma and provide early intervention for mental health issues.",
     tech: ["Django", "NLP", "OpenAI APIs", "Deep Learning", "Python"],
-    github: "https://github.com/yourusername/mindcare",
-    demo: "https://mindcare-demo.com"
+    github: "https://github.com/YSChandu/MindCare-AI-Driven-Mental-Health-Wellness-Platform",
+    demo: "https://mindcare-ai-driven-mental-health.onrender.com/"
   },
   {
     title: "Dog Breed Classification Using Deep Learning",
