@@ -28,20 +28,32 @@ export function Experience() {
             <p className="text-muted-foreground mb-2">Project Trainee | 09/2023 – 10/2023</p>
 
             <div className="mb-6">
-              <h4 className="font-semibold mb-2">Project: Yard Management System</h4>
+              <p className="text-muted-foreground mb-2">
+                Built a <strong>web-based Yard Management System</strong> using Django to streamline yard operations at RINL.
+                Developed and deployed the official <strong>RINL website</strong> to enhance user interaction and operational visibility.
+                You can view the live project&nbsp;
+                <a
+                  href="https://rinl-django.up.railway.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary underline"
+                >
+                  here
+                </a>.
+              </p>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                <li>Developed and deployed ML models to optimize yard management operations and decision-making.</li>
-                <li>Implemented backend services using Django, improving system functionality and efficiency.</li>
-                <li>Enhanced resource allocation by integrating predictive analytics for better decision-making.</li>
+                <li>Designed and implemented backend services using Django for efficient data handling.</li>
+                <li>Created interactive frontend interfaces to manage yard workflows and user communication.</li>
+                <li>Integrated database models to support real-time asset and task tracking.</li>
               </ul>
             </div>
 
             <div className="mb-6">
               <h4 className="font-semibold mb-2">Key Achievements</h4>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                <li>Automated manual data processing, reducing workload and improving accuracy.</li>
-                <li>Optimized real-time tracking and monitoring of yard assets, improving operational insights.</li>
-                <li>Successfully deployed a scalable ML model, enhancing system efficiency.</li>
+                <li>Digitalized yard management workflows, replacing manual processes.</li>
+                <li>Improved user experience and access to critical yard information via the website.</li>
+                <li>Successfully delivered a fully functional web app within a limited internship period.</li>
               </ul>
             </div>
 
@@ -51,10 +63,14 @@ export function Experience() {
                 {[
                   "Django",
                   "Backend Development",
+                  "Web Development",
                   "Project Management",
-                  "Team Management",
+                  "Team Collaboration",
                 ].map((skill) => (
-                  <span key={skill} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+                  <span
+                    key={skill}
+                    className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm"
+                  >
                     {skill}
                   </span>
                 ))}
