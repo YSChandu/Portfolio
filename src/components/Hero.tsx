@@ -27,8 +27,8 @@ export function Hero() {
           <a href="#projects" className="bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors">
             View Projects
           </a>
-          <a href="https://drive.google.com/file/d/1kFFkdbhLQ2KyXh1qVDzsB_JleKFYH2H-/view?usp=sharing" className="bg-secondary text-secondary-foreground px-6 py-3 rounded-lg hover:bg-secondary/80 transition-colors">
-            Download Resume
+          <a href="https://drive.google.com/file/d/17DdUvP2YV37FxKusTuBrx24-sv2Li6iE/view?usp=sharing" className="bg-secondary text-secondary-foreground px-6 py-3 rounded-lg hover:bg-secondary/80 transition-colors">
+            View Resume
           </a>
         </div>
 
