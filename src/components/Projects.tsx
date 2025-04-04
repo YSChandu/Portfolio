@@ -27,7 +27,7 @@ const projects = [
   {
     title: "Dog Breed Classification Using Deep Learning",
     description: "Implemented a Convolutional Neural Network (CNN)-based classification system to identify dog breeds from images using GoogleNet and data augmentation techniques. The model enhances accuracy for applications in canine healthcare, pet adoption, and animal welfare.",
-    tech: ["CNN", "GoogleNet", "TensorFlow", "Deep Learning"],
+    tech: ["CNN", "Pre-trained CNN models", "TensorFlow", "Deep Learning"],
     github: "https://github.com/yourusername/dog-breed-classification"
   },
   {

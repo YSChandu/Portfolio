@@ -49,13 +49,10 @@ export function Experience() {
               <h4 className="font-semibold mb-2">Skills Developed</h4>
               <div className="flex flex-wrap gap-2">
                 {[
-                  "Machine Learning",
                   "Django",
                   "Backend Development",
-                  "Predictive Analytics",
-                  "Data Processing",
                   "Project Management",
-                  "System Optimization",
+                  "Team Management",
                 ].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
                     {skill}
