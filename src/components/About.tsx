@@ -1,7 +1,7 @@
 // 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import myPic from "/src/asserts/me.jpg";
+import myPic from "/src/asserts/mee.jpg";
 
 export function About() {
   const [ref, inView] = useInView({
