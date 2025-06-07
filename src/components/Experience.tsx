@@ -33,7 +33,7 @@ export function Experience() {
                 Developed and deployed the official <strong>RINL website</strong> to enhance user interaction and operational visibility.
                 You can view the live project&nbsp;
                 <a
-                  href="https://rinl-django.up.railway.app/"
+                  href="https://rinl-django-project.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary underline"

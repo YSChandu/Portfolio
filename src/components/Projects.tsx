@@ -16,7 +16,7 @@ const projects = [
     tech: ["Streamlit", "Hugging Face Spaces", "FastAPI","Sentiment Analysis", "NLP", "gTTS", "API Integration"],
     github: "https://github.com/YSChandu/FastAPI_User_interface",
     demo:"https://huggingface.co/spaces/Chandu24-YT/NewsPulse"
-},
+  },
   {
     title: "MindCare – AI-Driven Mental Health Wellness Platform",
     description: "Developed an AI-powered web platform promoting mental health awareness and care. Features include a chatbot to assist users, personalized mental health diagnosis quizzes, and curated resources such as yoga exercises, self-help tools, and music therapy. The platform is designed to reduce stigma and provide early intervention for mental health issues.",
@@ -25,17 +25,17 @@ const projects = [
     demo: "https://mindcare-ai-driven-mental-health.onrender.com/"
   },
   {
-    title: "Dog Breed Classification Using Deep Learning",
-    description: "Implemented a Convolutional Neural Network (CNN)-based classification system to identify dog breeds from images using GoogleNet and data augmentation techniques. The model enhances accuracy for applications in canine healthcare, pet adoption, and animal welfare.",
-    tech: ["CNN", "Pre-trained CNN models", "TensorFlow", "Deep Learning"],
-    github: "https://github.com/yourusername/dog-breed-classification"
+    title: "Hybrid Deep Learning Model for Brain Tumor Classification",
+    description: "Built an automated system for classifying brain tumors into four categories using MRI scans. Extracted features using ResNet and DenseNet, reduced redundancy with PCA, and used a Random Forest Classifier for final prediction to achieve robust results.",
+    tech: ["Deep Learning", "ResNet", "DenseNet", "PCA", "Random Forest", "Scikit-Learn", "TensorFlow"],
+    github: "https://github.com/yourusername/brain-tumor-classification"
   },
   {
-    title: "Accident Prediction Using US Accidents Dataset",
-    description: "Utilized the US Accidents dataset from Kaggle to build an accident prediction model using multiple machine learning algorithms, including Decision Trees, Random Forest, XGBoost, SVM, and Neural Networks. Analyzed key accident factors like weather, road conditions, and traffic density to improve road safety insights.",
-    tech: ["Machine Learning", "Random Forest", "XGBoost", "SVM", "Neural Networks", "Pandas", "Scikit-Learn"],
-    github: "https://github.com/yourusername/accident-prediction"
-  }
+    title: "Gesture-Controlled Virtual Mouse with Custom Actions",
+    description: "Built a virtual mouse using OpenCV and MediaPipe to control cursor and clicks through hand gestures. Extended functionality with custom gesture-based system actions like volume control, screenshot, and browser navigation.",
+    tech: ["OpenCV", "MediaPipe", "Computer Vision", "Python", "pyautogui"],
+    github: "https://github.com/yourusername/gesture-virtual-mouse"
+  },
 ];
 
 
