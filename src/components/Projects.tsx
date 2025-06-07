@@ -28,13 +28,13 @@ const projects = [
     title: "Hybrid Deep Learning Model for Brain Tumor Classification",
     description: "Built an automated system for classifying brain tumors into four categories using MRI scans. Extracted features using ResNet and DenseNet, reduced redundancy with PCA, and used a Random Forest Classifier for final prediction to achieve robust results.",
     tech: ["Deep Learning", "ResNet", "DenseNet", "PCA", "Random Forest", "Scikit-Learn", "TensorFlow"],
-    github: "https://github.com/yourusername/brain-tumor-classification"
+    github: ""
   },
   {
     title: "Gesture-Controlled Virtual Mouse with Custom Actions",
     description: "Built a virtual mouse using OpenCV and MediaPipe to control cursor and clicks through hand gestures. Extended functionality with custom gesture-based system actions like volume control, screenshot, and browser navigation.",
     tech: ["OpenCV", "MediaPipe", "Computer Vision", "Python", "pyautogui"],
-    github: "https://github.com/yourusername/gesture-virtual-mouse"
+    github: ""
   },
 ];
 
